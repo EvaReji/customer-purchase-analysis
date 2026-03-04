@@ -1,4 +1,4 @@
-# customer-purchase-analysis
+# Customer-Purchase-Analysis
 
 Analyzing customer purchase behavior and product sales trends using Python.
 
@@ -8,16 +8,47 @@ This project explores an online retail dataset to understand customer purchasing
 
 It is being built step by step as part of my Data Analytics learning journey.
 
+## Dataset
+
+This project uses the **Online Retail dataset**, originally sourced from the UCI Machine Learning Repository and obtained via Kaggle.(https://archive.ics.uci.edu/ml/datasets/online+retail)
+
+The dataset contains transactional data from a UK-based online retail store between 2010–2011.
+
+It includes:
+
+- Invoice numbers  
+- Product (Stock) codes  
+- Product descriptions  
+- Quantities purchased  
+- Unit prices  
+- Customer IDs  
+- Country information  
+
+During data exploration, although the dataset documentation suggests no missing values, missing values were identified in certain columns and were handled appropriately during the data cleaning process.
+
+The dataset is used to analyze customer purchasing behavior, sales trends, and overall revenue patterns.
+
 ## Tools Used (So Far)
 
 - Python
 - Pandas
 - Jupyter Notebook
 
-## Work Completed (Day 1)
+## Day 1 - Basic Exploration
 
 - Loaded the Online Retail dataset
 - Explored dataset structure and data types
 - Generated summary statistics
 - Checked for missing values
 - Organized the notebook with clear markdown sections
+
+## Day 2 – Data Cleaning & Preparation
+
+- Removed missing values
+- Removed negative quantity transactions (returns/cancellations)
+- Removed zero UnitPrice rows
+- Removed duplicate records
+- Converted InvoiceDate to datetime format
+- Extracted new features: Year, Month, Weekday, Hour
+- Created TotalPrice column (Quantity × UnitPrice)
+- Verified unique customers (4,338) and countries (37)
