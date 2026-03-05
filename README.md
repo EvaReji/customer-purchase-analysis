@@ -52,3 +52,13 @@ The dataset is used to analyze customer purchasing behavior, sales trends, and o
 - Extracted new features: Year, Month, Weekday, Hour
 - Created TotalPrice column (Quantity × UnitPrice)
 - Verified unique customers (4,338) and countries (37)
+
+## Day 3 – Sales Insights & Visualization
+- Identified top performing products, customers, and countries using sales data
+- Calculated top 10 products by quantity sold
+- Calculated top 10 products by revenue
+- Identified top 10 customers by quantity purchased
+- Analyzed top 10 countries by quantity sold
+- Calculated top 10 countries by revenue
+- Visualized all results using bar charts with Matplotlib
+
