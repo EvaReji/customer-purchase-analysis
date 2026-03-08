@@ -62,3 +62,13 @@ The dataset is used to analyze customer purchasing behavior, sales trends, and o
 - Calculated top 10 countries by revenue
 - Visualized all results using bar charts with Matplotlib
 
+## Day 4 – Time-Based Sales Analysis
+
+- Analyzed revenue patterns across different time frames
+- Examined monthly revenue trends to identify high-performing months and seasonal patterns
+- Analyzed revenue by day of the week to understand mid-week peaks and slower days
+- Studied revenue by hour of the day and identified peak shopping hours (9 AM – 3 PM)
+- Created month vs weekday sales heatmap to visualize daily and monthly revenue trends
+- Documented key takeaways on peak hours, mid-week activity, late-year revenue spikes, top customers, and top products
+- Noted anomalies and data caveats, such as partial December data
+
