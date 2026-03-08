@@ -1,6 +1,6 @@
-# Customer-Purchase-Analysis
+# Customer-Purchase-Analysis-Project
 
-Analyzing customer purchase behavior and product sales trends using Python.
+Analyzing customer purchase behavior and product sales trends using Pandas, Matplotlib, and Seaborn.
 
 ## About This Project
 
@@ -28,11 +28,15 @@ During data exploration, although the dataset documentation suggests no missing 
 
 The dataset is used to analyze customer purchasing behavior, sales trends, and overall revenue patterns.
 
-## Tools Used (So Far)
+## 🛠 Tools Used (So Far)
 
-- Python
-- Pandas
-- Jupyter Notebook
+- **Pandas** – for data cleaning, feature extraction, and analysis.  
+- **Matplotlib** – for visualizations and charts.  
+- **Seaborn** – for advanced and styled visualizations.  
+- **Jupyter Notebook** – for step‑by‑step workflow, documentation, and analysis.  
+- **VS Code** – for editing and managing code.  
+- **Git** – for version control and maintaining a clean project history.  
+- **GitHub** – for hosting projects, sharing progress, and recruiter visibility.  
 
 ## Day 1 - Basic Exploration
 
@@ -40,20 +44,21 @@ The dataset is used to analyze customer purchasing behavior, sales trends, and o
 - Explored dataset structure and data types
 - Generated summary statistics
 - Checked for missing values
-- Organized the notebook with clear markdown sections
 
 ## Day 2 – Data Cleaning & Preparation
 
-- Removed missing values
-- Removed negative quantity transactions (returns/cancellations)
-- Removed zero UnitPrice rows
-- Removed duplicate records
-- Converted InvoiceDate to datetime format
-- Extracted new features: Year, Month, Weekday, Hour
-- Created TotalPrice column (Quantity × UnitPrice)
-- Verified unique customers (4,338) and countries (37)
+- Removed missing values.  
+- Removed negative quantity transactions (returns/cancellations).  
+- Removed zero UnitPrice rows.  
+- Removed duplicate records.  
+- Converted **InvoiceDate** to datetime format.  
+- Extracted new features: Year, Month, Weekday, Hour.  
+- Created **TotalPrice** column (Quantity × UnitPrice).  
+- Verified unique customers (4,338) and countries (37).  
+- Fixed country name: replaced **EIRE** with **Ireland** for consistency.  
 
 ## Day 3 – Sales Insights & Visualization
+
 - Identified top performing products, customers, and countries using sales data
 - Calculated top 10 products by quantity sold
 - Calculated top 10 products by revenue
