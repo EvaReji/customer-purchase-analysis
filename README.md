@@ -28,7 +28,7 @@ During data exploration, although the dataset documentation suggests no missing 
 
 The dataset is used to analyze customer purchasing behavior, sales trends, and overall revenue patterns.
 
-## 🛠 Tools Used (So Far)
+## 🛠 Tools Used
 
 - **Pandas** – for data cleaning, feature extraction, and analysis.  
 - **Matplotlib** – for visualizations and charts.  
@@ -77,3 +77,22 @@ The dataset is used to analyze customer purchasing behavior, sales trends, and o
 - Documented key takeaways on peak hours, mid-week activity, late-year revenue spikes, top customers, and top products
 - Noted anomalies and data caveats, such as partial December data
 
+## Day 5 – RFM Customer Analysis
+
+# Goal:
+Analyze customer behavior using Recency, Frequency, and Monetary (RFM) metrics to identify active, loyal, and high-value customers.
+
+# Steps:
+- Built RFM table by CustomerID (Recency, Frequency, Monetary).
+- Checked summary statistics for each metric.
+- Visualized Recency distribution to identify active vs inactive customers.
+- Visualized Frequency distribution to highlight occasional vs loyal buyers.
+- Plotted Frequency vs Monetary scatter plot to spot high-value customers.
+
+# Key Insights:
+- Most customers are active but purchase only a few times.
+- A small group buys frequently and spends more → loyal, high-value customers.
+- Customers who haven’t purchased recently may need re-engagement campaigns.
+
+# Takeaway:
+Loyal, high-value customers drive most revenue and should be prioritized. Occasional buyers can be targeted with promotions to increase engagement.
