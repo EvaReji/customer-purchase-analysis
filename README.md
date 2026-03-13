@@ -79,20 +79,20 @@ The dataset is used to analyze customer purchasing behavior, sales trends, and o
 
 ## Day 5 – RFM Customer Analysis
 
-# Goal:
+### Goal:
 Analyze customer behavior using Recency, Frequency, and Monetary (RFM) metrics to identify active, loyal, and high-value customers.
 
-# Steps:
+### Steps:
 - Built RFM table by CustomerID (Recency, Frequency, Monetary).
 - Checked summary statistics for each metric.
 - Visualized Recency distribution to identify active vs inactive customers.
 - Visualized Frequency distribution to highlight occasional vs loyal buyers.
 - Plotted Frequency vs Monetary scatter plot to spot high-value customers.
 
-# Key Insights:
+### Key Insights:
 - Most customers are active but purchase only a few times.
 - A small group buys frequently and spends more → loyal, high-value customers.
 - Customers who haven’t purchased recently may need re-engagement campaigns.
 
-# Takeaway:
+### Takeaway:
 Loyal, high-value customers drive most revenue and should be prioritized. Occasional buyers can be targeted with promotions to increase engagement.
