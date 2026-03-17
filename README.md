@@ -26,17 +26,15 @@ It includes:
 
 During data exploration, although the dataset documentation suggests no missing values, missing values were identified in certain columns and were handled appropriately during the data cleaning process.
 
-The dataset is used to analyze customer purchasing behavior, sales trends, and overall revenue patterns.
-
 ## 🛠 Tools Used
 
-- **Pandas** – for data cleaning, feature extraction, and analysis.  
-- **Matplotlib** – for visualizations and charts.  
-- **Seaborn** – for advanced and styled visualizations.  
-- **Jupyter Notebook** – for step‑by‑step workflow, documentation, and analysis.  
-- **VS Code** – for editing and managing code.  
-- **Git** – for version control and maintaining a clean project history.  
-- **GitHub** – for hosting projects, sharing progress, and recruiter visibility.  
+- **Pandas** – data cleaning, feature extraction, and analysis.  
+- **Matplotlib** – visualizations and charts.  
+- **Seaborn** – advanced and styled visualizations.  
+- **Jupyter Notebook** – step‑by‑step workflow, documentation, and analysis.  
+- **VS Code** – editing and managing code.  
+- **Git** – version control  
+- **GitHub** – hosting projects, sharing progress, and recruiter visibility.  
 
 ## Day 1 - Basic Exploration
 
@@ -79,20 +77,47 @@ The dataset is used to analyze customer purchasing behavior, sales trends, and o
 
 ## Day 5 – RFM Customer Analysis
 
-### Goal:
-Analyze customer behavior using Recency, Frequency, and Monetary (RFM) metrics to identify active, loyal, and high-value customers.
-
-### Steps:
 - Built RFM table by CustomerID (Recency, Frequency, Monetary).
 - Checked summary statistics for each metric.
 - Visualized Recency distribution to identify active vs inactive customers.
 - Visualized Frequency distribution to highlight occasional vs loyal buyers.
 - Plotted Frequency vs Monetary scatter plot to spot high-value customers.
 
-### Key Insights:
+### Observations:
 - Most customers are active but purchase only a few times.
 - A small group buys frequently and spends more → loyal, high-value customers.
 - Customers who haven’t purchased recently may need re-engagement campaigns.
 
 ### Takeaway:
 Loyal, high-value customers drive most revenue and should be prioritized. Occasional buyers can be targeted with promotions to increase engagement.
+
+## Day 6 – RFM Customer Segmentation & Business Metrics
+
+### Steps:
+
+- **Verified RFM Table:** Checked Recency, Frequency, and Monetary values.
+- **Assigned RFM Scores:**
+  - `R_score`: higher → recent purchase
+  - `F_score`: higher → frequent buyer
+  - `M_score`: higher → higher spending
+- **Created RFM Score:** Combined R, F, M scores for each customer.
+- **Customer Segmentation:**
+  - Top Customer – recent & frequent
+  - Loyal – frequent buyers
+  - Potential – recent but less frequent
+  - At Risk – not purchased recently
+  - Lost – inactive long-term
+
+**Segment Counts:** Potential: 2,147 | At Risk: 1,066 | Loyal: 891 | Lost: 234
+
+- **Business Metrics:**
+  - Customer Count per Segment → bar chart
+  - Total Revenue per Segment → Loyal contributes most
+  - Average Revenue per Customer → Loyal highest per person
+
+### Observations:
+
+- Most customers are **Potential** → can be converted to Loyal
+- **Loyal customers** drive most revenue
+- **At Risk** can be re-engaged
+- **Lost** contribute very little
