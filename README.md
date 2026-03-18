@@ -133,4 +133,28 @@ Loyal customers have the highest spending per person.
 - Most customers are **Potential** → can be converted to Loyal  
 - **Loyal customers** drive most revenue  
 - **At Risk customers** can be re-engaged  
-- **Lost customers** contribute very little  
+- **Lost customers** contribute very little
+
+## Day 7 – Final Summary & Insights
+
+### Project Summary
+In this project, I analyzed customer purchase data to understand sales patterns and customer behavior.  
+The workflow included data cleaning, sales analysis, time-based analysis, and RFM segmentation to group customers.
+
+### Key Insights
+- Loyal customers contribute the majority of revenue.  
+- Potential customers form a large group and can be converted into loyal customers.  
+- Top-selling products generate most of the sales.  
+- High-revenue regions significantly impact overall performance.  
+- Sales vary by month and hour, showing clear peak periods.  
+- Some customers are inactive and can be re-engaged.  
+
+### Business Recommendations
+- Retain loyal customers through offers and rewards.  
+- Convert potential customers using targeted promotions.  
+- Re-engage inactive customers with discounts or reminders.  
+- Focus on top-selling products and high-revenue regions.  
+- Run campaigns during peak sales periods.  
+
+### Conclusion
+This project shows how data analysis helps understand customer behavior and supports better business decisions.
