@@ -1,4 +1,4 @@
-# Customer-Purchase-Analysis-Project
+# 📊 Customer-Purchase-Analysis-Project
 
 Analyzing customer purchase behavior and product sales trends using Pandas, Matplotlib, and Seaborn.
 
@@ -108,10 +108,9 @@ Most customers are recent, indicating active engagement.
 ![Frequency vs Monetary](images/day5_freq_monetary.png)  
 Identifies high-value customers who purchase frequently and spend more.
 
-### Observations:
 - Most customers purchase only a few times  
-- A small group contributes high revenue  
-- Some customers may need re-engagement  
+- A small group of customers contributes a large share of revenue  
+- Some customers may need re-engagement      
 
 ---
 
@@ -135,6 +134,8 @@ Loyal customers have the highest spending per person.
 - **At Risk customers** can be re-engaged  
 - **Lost customers** contribute very little
 
+---
+
 ## Day 7 – Final Summary & Insights
 
 ### Project Summary
@@ -157,4 +158,4 @@ The workflow included data cleaning, sales analysis, time-based analysis, and RF
 - Run campaigns during peak sales periods.  
 
 ### Conclusion
-This project shows how data analysis helps understand customer behavior and supports better business decisions.
+This project demonstrates how data analysis can be used to understand customer behavior and support better business decisions.
