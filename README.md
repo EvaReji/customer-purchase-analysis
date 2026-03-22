@@ -1,4 +1,4 @@
-# 📊 Customer-Purchase-Analysis-Project
+# 📊 Customer-Purchase-Analysis
 
 Analyzing customer purchase behavior and product sales trends using Pandas, Matplotlib, and Seaborn.
 
